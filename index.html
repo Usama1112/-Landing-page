@@ -3,62 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My E-Commerce Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Modern E-Commerce Landing Page</title>
+    <link rel="stylesheet" href="csscode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <div class="logo">My Store</div>
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="images/Screenshot 2025-02-08 150637.png" alt="Store Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="banner">
-        <h1>Welcome to Our Store!</h1>
-        <p>Discover amazing products at unbeatable prices.</p>
-        <button class="cta-button">Shop Now</button>
-    </section>
+    <section class="main-content">
+        <aside class="filters">
+            <h3>Filter By</h3>
+            <div class="filter-group">
+                <h4>Category</h4>
+                <ul>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Bags</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <h4>Price</h4>
+                <ul>
+                    <li><a href="#">Under $50</a></li>
+                    <li><a href="#">$50 - $100</a></li>
+                    <li><a href="#">$100 - $200</a></li>
+                    <li><a href="#">Over $200</a></li>
+                </ul>
+            </div>
+        </aside>
 
-    <section class="featured-products">
-        <h2>Featured Products</h2>
-        <div class="product">
-            <img src="images/images1.jpg" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>$19.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="images/images2.jpg" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>$29.99</p>
-            <button>Add to Cart</button>
-        </div>
-        <div class="product">
-            <img src="images/images3.jpg" alt="Product 3">
-            <h3>Product 3</h3>
-            <p>$39.99</p>
-            <button>Add to Cart</button>
-        </div>
+        <section class="products-grid">
+            <h2>Best Deals</h2>
+            <div class="products-container">
+                <div class="product">
+                    <img src="images/images1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p class="price">$19.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/images2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p class="price">$29.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="images/images3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p class="price">$39.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                </div>
+            </div>
+        </section>
     </section>
 
     <footer>
-        <div class="contact-info">
-            <p>Email: info@mystore.com | Phone: (123) 456-7890</p>
+        <div class="footer-container">
+            <div class="contact-info">
+                <p>Email: info@mystore.com | Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Terms & Conditions</a> |
+                <a href="#">Privacy Policy</a>
+            </div>
         </div>
-        <div class="social-media">
-            <a href="#">Facebook</a> | 
-            <a href="#">Twitter</a> | 
-            <a href="#">Instagram</a>
-        </div>
-        <div class="footer-links">
-            <a href="#">Terms & Conditions</a> | 
-            <a href="#">Privacy Policy</a>
+        <div class="copyright">
+            <p>&copy; 2025 My Store. All rights reserved.</p>
         </div>
     </footer>
 
